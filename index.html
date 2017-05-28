@@ -5,14 +5,69 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>HOLA MUNDO</h1>
-	<div class="abuelo">
-		<div class="padre">
+	<h1>Valor static</h1>
+	<h3>
+		En este valor de posicionamiento realmente no pasa nada simplemente le estas diciendo a tu
+		elemento que se mantenga en una posicion estatica y encontraras este tipo de posicionamniento
+		por default, asi que no es necesario poner este valor.
+	</h3>
+	<div id="abuelostatic">
+		<div id="padrestatic">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco <span class="yo">Daniel</span> laboris commodo
+			quis nostrud exercitation ullamco <span id="yostatic">Daniel</span> laboris commodo
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</div>
 	</div>
+	<h1>Valor relative</h1>
+	<h3>
+		En este valor de posicionamiento el elemento esta posicionado relativamente en su posicion normal
+		y cualquier contenido no sera ajustado para caber en el hueco que deja este elemento.
+	</h3>
+	<div id="abuelorelative">
+		<div id="padrerelative">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco <span id="yorelative">Daniel</span> laboris commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+	<h1>Valor absolute</h1>
+	<h3>
+		En este valor de posicionamiento el elemento esta posicionado relativamente al ancestro posicionado
+		mas cercano. Sin embargo, si un ningun ancestro esta posicionado este tomara el <body> del documento
+		y se movera con el SCROLL de la pagina.
+		NOTA: Un "ancestro posicionado" es un elemento que tiene la propiedad "position:;" excepto "static".
+	</h3>
+	<div id="abueloabsolute">
+		<div id="padreabsolute">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco <span id="yoabsolute">Daniel</span> laboris commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+	<h1>Valor fixed</h1>
+	<h3>
+		En este valor de posicionamiento el elemento esta posicionado relativamente al viewport,
+		Esto quiere decir que siempre se mantendra en el mismo lugar, no importa si hacen SCROLL en la pantalla
+		puedes utilizar las propiedades de direccion. Este tipo de elemento no dejara un hueco en el lugar
+		que se posiciono por default.
+	</h3>
+	<div id="abuelofixed">
+		<div id="padrefixed">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco <span id="yofixed">Daniel</span> laboris commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+</body>
