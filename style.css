@@ -1,0 +1,50 @@
+/*
+* === Tipos de posicionanamiento en CSS ===
+*/
+
+/*
+*	--STATIC--
+	--RELATIVE--
+	--ABSOLUTE--
+	--FIXED--
+	
+*/
+
+/*
+*	=== Propiedades de direccion ===
+	--TOP--
+	--LEFT--
+	--RIGHT--
+	--BOTTOM--	
+*/
+
+
+
+body{
+	font-family: arial;
+	font-weight: bold;
+}
+h1{
+	background: #8bc34a;
+	color: white;
+	text-align: center;
+}
+p{
+	color: #fdfdfb;
+	background: #ff5722;
+	padding: 30px;
+	margin: 35px 0 25px 0;
+	border-radius: 50px;
+}
+.abuelo{
+	background: #009688;
+	padding: 30px;
+	display: block;
+}
+.padre{
+	background: #00bcd4;
+}
+.yo{
+	opacity: 0.7;
+	background: #ffc107;
+}
