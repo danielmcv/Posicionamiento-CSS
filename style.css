@@ -1,24 +1,17 @@
 body{
 	font-family: arial;
 	font-weight: bold;
+	color: white;
+	margin: 0 30px 0 40px;
 }
 h1{
-	background: #8bc34a;
-	color: white;
-	text-align: center;
+	margin: 0 0 0 30px;
+	padding: 10px 0 0 0;
 }
-.abuelo{
-	background: #009688;
-	padding: 30px;
+h3{
+	margin: 0 30px 0 30px;
+	padding: 15px 50px 5px 0;
 }
-.padre{
-	background: #00bcd4;
-}
-.yo{
-	opacity: 0.7;
-	background: #ffc107;
-}
-
 /*
  === Tipos de posicionanamiento en CSS ===
 */
@@ -60,18 +53,27 @@ elemento que se mantenga en una posicion estatica y encontraras este tipo de pos
 por default, asi que no es necesario poner este valor.
 */
 #abuelostatic{
-	background: #009688;
+	background: #bf3636;
 	padding: 30px;
 	position: static;
 }
 #padrestatic{
-	background: #00bcd4;
+	background: #f24444;
 	position: static;
 }
 #yostatic{
-	opacity: 0.7;
-	background: #ffc107;
+	opacity: 0.999;
+	background: #3dd8d9;
 	position: static;
+}
+#sectionuno{
+	margin: 5px 0 35px 0;
+}
+#sectionuno h1{
+	color: #d93d3d;
+}
+#sectionuno h3{
+	color: #d93d3d; 
 }
 
 /* -------------------------------------------------------
@@ -83,18 +85,27 @@ y cualquier contenido no sera ajustado para caber en el hueco que deja este elem
 */
 
 #abuelorelative{
-	background: #009688;
+	background: #3639bf;
 	padding: 30px;
 }
 #padrerelative{
-	background: #00bcd4;
+	background: #4448f2;
 }
 #yorelative{
-	opacity: 0.7;
-	background: #ffc107;
+	opacity: 0.999;
+	background: #d9d63d;
 	position: relative;
 	top: 40px;
 	right: 60px;
+}
+#sectiondos{
+	margin: 5px 0 35px 0; 
+}
+#sectiondos h1{
+	color: #3d41d9;
+}
+#sectiondos h3{
+	color: #3d41d9;
 }
 /* -------------------------------------------------------
 Veamos el caso de:
@@ -106,17 +117,26 @@ y se movera con el SCROLL de la pagina.
 NOTA: Un "ancestro posicionado" es un elemento que tiene la propiedad "position:;" excepto "static".
 */
 #abueloabsolute{
-	background: #009688;
+	background: #40bf36;
 	padding: 30px;
 }
 #padreabsolute{
-	background: #00bcd4;
+	background: #51f244;
 }
 #yoabsolute{
-	opacity: 0.7;
-	background: #ffc107;
+	opacity: 0.999;
+	background: #d93dc6;
 	position: absolute;
 	right: 30px;
+}
+#sectiontres{
+	margin: 5px 0 35px 0;
+}
+#sectiontres h1{
+	color: #48d93d;
+}
+#sectiontres h3{
+	color: #48d93d;
 }
 /* -------------------------------------------------------
 veamos el caso de:
@@ -128,19 +148,27 @@ puedes utilizar las propiedades de direccion. Este tipo de elemento no dejara un
 que se posiciono por default.
 */
 #abuelofixed{
-	background: #009688;
+	background: #bf9036;
 	padding: 30px;
 }
 #padrefixed{
-	background: #00bcd4;
+	background: #f2b744;
 }
 #yofixed{
-	opacity: 0.7;
-	background: #ffc107;
+	opacity: 0.999;
+	background: #3d76d9;
 	position: fixed;
 	right: 30px;
 	top: 600px;
 	z-index: 1;
+}
+#sectioncuatro{
+}
+#sectioncuatro h1{
+	color: #d9a43d;
+}
+#sectioncuatro h3{
+	color: #d9a43d;
 }
 
 
